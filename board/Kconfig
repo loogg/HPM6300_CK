@@ -22,14 +22,14 @@ menu "On-chip Peripheral Drivers"
 
     config LWIP_TCPIP_CORE_LOCKING_INPUT
         int "Enable LWIP TCPIP core locking input"
-        default 0
+        default 1
         help
             This option enables the locking of the TCPIP core input processing.
             It is useful for applications that require thread-safe access to the TCPIP core.
 
     config LWIP_CHECKSUM_CTRL_PER_NETIF
         int "Enable LWIP checksum control per netif"
-        default 0
+        default 1
         help
             This option allows the control of checksum calculation on a per-netif basis.
             It is useful for applications that require different checksum settings for different network interfaces.
