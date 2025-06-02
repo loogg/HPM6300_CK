@@ -11,3 +11,5 @@
 /settings
 /rtconfig_preinc.h
 .cache
+/flash_debug
+!/flash_debug/makefile
