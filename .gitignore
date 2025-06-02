@@ -1,0 +1,13 @@
+/RTE
+/Listings
+/Objects
+/Debug
+/build
+/makefile.targets
+/rtconfig.pyc
+/project.custom_argvars
+/.vscode
+/__pycache
+/settings
+/rtconfig_preinc.h
+.cache
