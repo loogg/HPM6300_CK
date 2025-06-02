@@ -26,12 +26,6 @@ int main(void)
     gpio_set_pin_output(HPM_GPIO0, GPIO_OE_GPIOC, 3);
     gpio_write_pin(HPM_GPIO0, GPIO_DO_GPIOC, 3, 1);
 
-    rt_thread_mdelay(2000);
-
-    gpio_set_pin_output(HPM_GPIO0, GPIO_OE_GPIOC, 5);
-    gpio_write_pin(HPM_GPIO0, GPIO_DO_GPIOC, 5, 1);
-    rt_thread_mdelay(500);
-    gpio_write_pin(HPM_GPIO0, GPIO_DO_GPIOC, 5, 0);
     // sdcard_init();
 
     return 0;
