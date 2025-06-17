@@ -317,6 +317,9 @@
 /* IoT Cloud */
 
 /* end of IoT Cloud */
+#define PKG_USING_AGILE_MODBUS
+#define PKG_USING_AGILE_MODBUS_V112
+#define PKG_AGILE_MODBUS_VER_NUM 0x10102
 /* end of IoT - internet of things */
 
 /* security packages */
@@ -388,6 +391,7 @@
 #define PKG_CHERRYUSB_HOST_EHCI_HPM
 #define PKG_CHERRYUSB_HOST_CDC_RNDIS
 #define CONFIG_USBHOST_PLATFORM_CDC_RNDIS
+#define RT_LWIP_PBUF_POOL_BUFSIZE 1600
 #define PKG_USING_CHERRYUSB_V010403
 /* end of system packages */
 
@@ -509,7 +513,6 @@
 
 /* On-chip Peripheral Drivers */
 
-#define RT_LWIP_PBUF_POOL_BUFSIZE 1600
 #define LWIP_TCPIP_CORE_LOCKING_INPUT 1
 #define LWIP_CHECKSUM_CTRL_PER_NETIF 1
 #define BSP_USING_GPIO

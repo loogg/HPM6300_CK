@@ -15,6 +15,7 @@
 #include "usbh_common.h"
 #include "hpm_gpio_drv.h"
 #include "enetdev.h"
+#include "mbtcp.h"
 
 
 int main(void)
@@ -27,6 +28,7 @@ int main(void)
     gpio_write_pin(HPM_GPIO0, GPIO_DO_GPIOC, 3, 1);
 
     // sdcard_init();
+    mbtcp_cycle_init();
 
     return 0;
 }
